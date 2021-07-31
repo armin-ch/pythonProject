@@ -7,6 +7,6 @@ import requests
 
 res = requests.get("http://api.open-notify.org/astros.json")
 astros=res.json()
-print(astros.people)
+print(astros)
 # test
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
